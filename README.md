@@ -27,7 +27,7 @@ record's metadata timestamp (`CreateTime`) or the current system time (`System.c
 
 2. Copy the generated JAR file into the S3 Sink Connector's plugin directory on your Kafka Connect workers.
   For example:
-  cp target/custom-partitioner-1.3.0.jar /kafka/confluent-7.9.7/share/confluent-hub-components/confluentinc-kafka-connect-s3-10.5.13/
+  cp target/custom-partitioner-1.2.0.jar /kafka/confluent-7.9.7/share/confluent-hub-components/confluentinc-kafka-connect-s3-10.5.13/
 
 3. Restart the Kafka Connect service on all worker nodes to load the new JAR into the Classpath.
 
@@ -68,7 +68,7 @@ kafka-connect-storage-common/partitioner/src/main/java/io/confluent/connect/stor
 
 2. Oluşan JAR dosyasını Kafka Connect sunucularınızdaki S3 Sink Connector plugin klasörüne kopyalayın.
 Örneğin:
-  cp target/custom-partitioner-1.3.0.jar /kafka/confluent-7.9.7/share/confluent-hub-components/confluentinc-kafka-connect-s3-10.5.13/
+  cp target/custom-partitioner-1.2.0.jar /kafka/confluent-7.9.7/share/confluent-hub-components/confluentinc-kafka-connect-s3-10.5.13/
 
 3. Yeni JAR dosyasının Classpath'e dahil olması için Kafka Connect servisini yeniden başlatın.
    systemctl restart kafkaconnect
