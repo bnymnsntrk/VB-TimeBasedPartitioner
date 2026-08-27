@@ -40,7 +40,8 @@ Note: The partitioner.class must remain as the default TimeBasedPartitioner.
     "timestamp.field": "RecordDate",
     "timestamp.extractor": "com.vakifbank.VBTimestampExtractor"
   }
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
 TR
 
 Bu repository, Confluent S3 Sink Connector için özel olarak geliştirilmiş bir TimestampExtractor
